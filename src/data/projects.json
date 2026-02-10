@@ -1,0 +1,54 @@
+[
+  {
+    "id": "incident-fixer",
+    "title": "Incident Fixer Dashboard",
+    "oneLiner": "Real-time dashboard that cut incident reaction time by 41%.",
+    "stack": ["Next.js", "TypeScript", "Socket.IO", "PostgreSQL"],
+    "problem": "Ops team had fragmented monitoring tools and missed SLA windows during alerts.",
+    "solution": "Built a single dashboard with live event streams, severity filters, and smart on-call routing.",
+    "result": "Average MTTR dropped from 49 minutes to 29 minutes in the first month.",
+    "githubUrl": "https://github.com/example/incident-fixer",
+    "liveUrl": "https://example.com/incident-fixer",
+    "tags": ["frontend", "devops", "observability"],
+    "classAffinity": ["backend-wizard", "fullstack-paladin", "automation-rogue"]
+  },
+  {
+    "id": "ci-guardian",
+    "title": "CI Guardian Bot",
+    "oneLiner": "A bot that explains failed pipelines and proposes auto-fixes.",
+    "stack": ["Node.js", "TypeScript", "GitHub Actions", "Redis"],
+    "problem": "Developers lost time triaging flaky tests and noisy CI logs.",
+    "solution": "Implemented a parser for CI logs with issue clustering and bot comments in pull requests.",
+    "result": "Pipeline debugging time reduced by 33% and flaky test count halved.",
+    "githubUrl": "https://github.com/example/ci-guardian",
+    "liveUrl": "https://example.com/ci-guardian",
+    "tags": ["automation", "backend", "quality"],
+    "classAffinity": ["backend-wizard", "automation-rogue", "fullstack-paladin"]
+  },
+  {
+    "id": "field-mobile-crm",
+    "title": "Field CRM Mobile",
+    "oneLiner": "Offline-first CRM app for sales teams on the road.",
+    "stack": ["React Native", "Expo", "SQLite", "GraphQL"],
+    "problem": "Field reps could not update client data without stable internet.",
+    "solution": "Built an offline queue with conflict resolution and background sync.",
+    "result": "Daily active usage increased by 54% and duplicate records dropped by 70%.",
+    "githubUrl": "https://github.com/example/field-mobile-crm",
+    "liveUrl": "https://example.com/field-mobile-crm",
+    "tags": ["mobile", "offline", "productivity"],
+    "classAffinity": ["mobile-ranger", "fullstack-paladin"]
+  },
+  {
+    "id": "feature-flag-hub",
+    "title": "Feature Flag Hub",
+    "oneLiner": "Safe rollout platform with instant rollback controls.",
+    "stack": ["Go", "React", "Kafka", "Docker"],
+    "problem": "Releases required full deploys and risked large production failures.",
+    "solution": "Designed a feature-flag console with audit logs and phased audience targeting.",
+    "result": "Release frequency doubled while critical rollout incidents dropped near zero.",
+    "githubUrl": "https://github.com/example/feature-flag-hub",
+    "liveUrl": "https://example.com/feature-flag-hub",
+    "tags": ["fullstack", "release", "platform"],
+    "classAffinity": ["fullstack-paladin", "backend-wizard", "automation-rogue"]
+  }
+]

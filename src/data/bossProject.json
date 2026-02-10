@@ -1,0 +1,11 @@
+{
+  "title": "Legacy Billing Monolith",
+  "context": "Critical billing service with slow deploys, fragile tests, and security debt.",
+  "actions": ["Refactor", "Add tests", "Optimize DB", "Fix security"],
+  "outcomes": [
+    "Reduced deployment window from 45 to 12 minutes.",
+    "Stabilized flaky integration tests with contract coverage.",
+    "Cut read query latency by 37% after indexing and query cleanup.",
+    "Closed high-severity vulnerabilities before audit week."
+  ]
+}

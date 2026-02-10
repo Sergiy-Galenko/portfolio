@@ -1,0 +1,66 @@
+[
+  {
+    "id": "quest-intro-terminal",
+    "room": 0,
+    "title": "Read The Mission Brief",
+    "description": "Inspect the terminal and understand the objective before entering Room 1.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  },
+  {
+    "id": "quest-class-selection",
+    "room": 1,
+    "title": "Choose Your Class",
+    "description": "Pick one class to activate affinity filters and role-specific strengths.",
+    "rewardXp": 1,
+    "rewardCoins": 2
+  },
+  {
+    "id": "quest-skill-tree-scan",
+    "room": 1,
+    "title": "Inspect Skill Tree",
+    "description": "Visit the skill console and review grouped strengths.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  },
+  {
+    "id": "quest-build-rescue",
+    "room": 2,
+    "title": "Rescue The Build",
+    "description": "Fix all CI issues in Room 2 to restore the pipeline.",
+    "rewardXp": 2,
+    "rewardCoins": 2
+  },
+  {
+    "id": "quest-ci-console",
+    "room": 2,
+    "title": "Inspect CI Console",
+    "description": "Read the CI monitor to identify root causes and patterns.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  },
+  {
+    "id": "quest-legacy-action",
+    "room": 3,
+    "title": "Pick A Legacy Strategy",
+    "description": "Select one boss action and investigate legacy-system impact.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  },
+  {
+    "id": "quest-design-zone",
+    "room": 4,
+    "title": "Survey The Design Zone",
+    "description": "Inspect architecture blocks and map a draft system design route.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  },
+  {
+    "id": "quest-contact-signal",
+    "room": 5,
+    "title": "Send Contact Signal",
+    "description": "Use the hire form or contact actions to complete the portal quest.",
+    "rewardXp": 1,
+    "rewardCoins": 1
+  }
+]

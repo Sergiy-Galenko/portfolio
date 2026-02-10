@@ -1,0 +1,20 @@
+[
+  {
+    "id": "perk-fast-debug",
+    "title": "Fast Debug Loop",
+    "description": "Turns ambiguous logs into clear next actions within minutes.",
+    "classAffinity": ["backend-wizard", "automation-rogue", "fullstack-paladin"]
+  },
+  {
+    "id": "perk-product-radar",
+    "title": "Product Radar",
+    "description": "Balances user impact, technical debt, and delivery speed in every sprint.",
+    "classAffinity": ["fullstack-paladin", "mobile-ranger"]
+  },
+  {
+    "id": "perk-release-discipline",
+    "title": "Release Discipline",
+    "description": "Ships continuously with rollback safety nets and metrics-driven checks.",
+    "classAffinity": ["automation-rogue", "backend-wizard", "mobile-ranger"]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "room": 0,
+    "location": "Forest Gate",
+    "title": "About Me",
+    "summary": "I build web products with a focus on clean UX and fast delivery.",
+    "highlights": [
+      "3+ years in commercial development",
+      "Strong ownership from idea to release",
+      "Focus on performance and product value"
+    ],
+    "stack": ["TypeScript", "React", "Next.js"]
+  },
+  {
+    "room": 1,
+    "location": "Iron Bastion",
+    "title": "Frontend Cases",
+    "summary": "I create interactive interfaces and dashboards for real users.",
+    "highlights": [
+      "Component architecture and design systems",
+      "Animation with Framer Motion",
+      "Adaptive layouts for desktop and mobile"
+    ],
+    "stack": ["React", "Next.js", "Framer Motion"]
+  },
+  {
+    "room": 2,
+    "location": "Ember Mine",
+    "title": "Backend & Integration",
+    "summary": "I deliver APIs, integrations and production-ready data flows.",
+    "highlights": [
+      "REST services and auth flows",
+      "Logs, monitoring and CI diagnostics",
+      "Reliable integrations with external services"
+    ],
+    "stack": ["Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "room": 3,
+    "location": "Shadow Keep",
+    "title": "Automation & Quality",
+    "summary": "I automate repetitive work and increase release quality.",
+    "highlights": [
+      "CI/CD optimizations and scripts",
+      "Regression safety with tests",
+      "Faster feedback loops for teams"
+    ],
+    "stack": ["GitHub Actions", "Jest", "Playwright"]
+  },
+  {
+    "room": 4,
+    "location": "Crystal Labyrinth",
+    "title": "System Thinking",
+    "summary": "I design scalable solutions and make pragmatic technical decisions.",
+    "highlights": [
+      "System design and architecture tradeoffs",
+      "Performance and bottleneck analysis",
+      "Security and maintainability focus"
+    ],
+    "stack": ["Architecture", "Caching", "Observability"]
+  },
+  {
+    "room": 5,
+    "location": "Portal Nexus",
+    "title": "Contact",
+    "summary": "Ready for collaboration on web products and engineering challenges.",
+    "highlights": [
+      "Open for freelance and product teams",
+      "Fast communication and clear ownership",
+      "Can join from MVP to scaling stage"
+    ],
+    "stack": ["Telegram", "Email", "Remote"]
+  }
+]

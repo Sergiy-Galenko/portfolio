@@ -1,0 +1,86 @@
+[
+  {
+    "id": "front",
+    "title": "Front-End Systems",
+    "items": [
+      {
+        "name": "React + Next.js",
+        "level": 5,
+        "classAffinity": ["fullstack-paladin", "mobile-ranger"]
+      },
+      {
+        "name": "State Management",
+        "level": 4,
+        "classAffinity": ["fullstack-paladin", "automation-rogue"]
+      },
+      {
+        "name": "UX Motion",
+        "level": 4,
+        "classAffinity": ["fullstack-paladin", "mobile-ranger"]
+      }
+    ]
+  },
+  {
+    "id": "back",
+    "title": "Backend Engineering",
+    "items": [
+      {
+        "name": "Node.js Services",
+        "level": 5,
+        "classAffinity": ["backend-wizard", "fullstack-paladin"]
+      },
+      {
+        "name": "API Design",
+        "level": 5,
+        "classAffinity": ["backend-wizard", "fullstack-paladin"]
+      },
+      {
+        "name": "Data Modeling",
+        "level": 4,
+        "classAffinity": ["backend-wizard", "automation-rogue"]
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "title": "Mobile Delivery",
+    "items": [
+      {
+        "name": "React Native",
+        "level": 5,
+        "classAffinity": ["mobile-ranger", "fullstack-paladin"]
+      },
+      {
+        "name": "Offline Sync",
+        "level": 4,
+        "classAffinity": ["mobile-ranger", "automation-rogue"]
+      },
+      {
+        "name": "App Performance",
+        "level": 4,
+        "classAffinity": ["mobile-ranger"]
+      }
+    ]
+  },
+  {
+    "id": "devops",
+    "title": "DevOps & Automation",
+    "items": [
+      {
+        "name": "CI/CD Pipelines",
+        "level": 5,
+        "classAffinity": ["automation-rogue", "backend-wizard"]
+      },
+      {
+        "name": "Docker & Infra",
+        "level": 4,
+        "classAffinity": ["automation-rogue", "backend-wizard", "fullstack-paladin"]
+      },
+      {
+        "name": "Observability",
+        "level": 4,
+        "classAffinity": ["automation-rogue", "backend-wizard"]
+      }
+    ]
+  }
+]
