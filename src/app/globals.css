@@ -273,6 +273,10 @@ ul {
     linear-gradient(145deg, #0b1f34, #152f4f);
 }
 
+.arena-map.player-hit {
+  box-shadow: inset 0 0 0 2px rgba(255, 89, 118, 0.45);
+}
+
 .room-theme-0 {
   background:
     radial-gradient(circle at 22% 28%, rgba(58, 114, 186, 0.34), transparent 40%),
@@ -357,6 +361,68 @@ ul {
   box-shadow: 0 0 0 3px rgba(102, 209, 255, 0.24);
 }
 
+.arena-zone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.arena-zone.active {
+  opacity: 0.5;
+}
+
+.zone-hazard {
+  border: 1px dashed rgba(255, 103, 92, 0.95);
+  background: radial-gradient(circle, rgba(255, 109, 95, 0.28), transparent 72%);
+}
+
+.zone-heal {
+  border: 1px dashed rgba(118, 255, 161, 0.95);
+  background: radial-gradient(circle, rgba(115, 255, 187, 0.24), transparent 72%);
+}
+
+.zone-boost {
+  border: 1px dashed rgba(129, 199, 255, 0.95);
+  background: radial-gradient(circle, rgba(133, 201, 255, 0.24), transparent 72%);
+}
+
+.scenery {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.scenery-tree {
+  background: radial-gradient(circle at 50% 35%, #7ee89c, #2f7a4e);
+}
+
+.scenery-rock {
+  background: linear-gradient(145deg, #8d9cb4, #57637b);
+}
+
+.scenery-crystal {
+  background: linear-gradient(145deg, #79e0ff, #6b7cff);
+  transform: translate(-50%, -50%) rotate(12deg);
+}
+
+.scenery-torch {
+  background: linear-gradient(180deg, #ffea8f, #ff8c4f);
+}
+
+.scenery-ruin {
+  background: linear-gradient(145deg, #9aa2b9, #484f65);
+}
+
+.scenery-lava {
+  background: radial-gradient(circle at 50% 50%, #ffcf64, #ff6b56 66%, #8a2b35);
+}
+
 .player-unit,
 .enemy-unit {
   position: absolute;
@@ -371,6 +437,23 @@ ul {
 
 .enemy-unit {
   z-index: 4;
+}
+
+.enemy-hp-track {
+  margin: -2px auto 0;
+  width: 40px;
+  height: 5px;
+  border-radius: 999px;
+  border: 1px solid rgba(36, 51, 73, 0.9);
+  background: rgba(10, 15, 22, 0.8);
+  overflow: hidden;
+}
+
+.enemy-hp-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #a6ff72, #39c96e);
 }
 
 .slash-wave {

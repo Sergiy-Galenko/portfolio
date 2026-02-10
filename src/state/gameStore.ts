@@ -52,6 +52,9 @@ interface GameState {
   markPointInspected: (pointId: string) => void;
   registerEnemyDefeat: (enemyId: string) => void;
   markRoomCleared: (roomId: RoomId) => void;
+  damagePlayer: (amount: number) => void;
+  healPlayer: (amount: number) => void;
+  restorePlayerHealth: (amount?: number) => void;
   applyCheckpoint: (checkpoint: Checkpoint) => void;
   resetGame: () => void;
 }
@@ -221,6 +224,27 @@ export const useGameStore = create<GameState>((set) => ({
         },
       };
     }),
+  damagePlayer: (amount) =>
+    set((state) => ({
+      hudStats: {
+        ...state.hudStats,
+        hp: Math.max(0, state.hudStats.hp - Math.max(0, amount)),
+      },
+    })),
+  healPlayer: (amount) =>
+    set((state) => ({
+      hudStats: {
+        ...state.hudStats,
+        hp: Math.min(100, state.hudStats.hp + Math.max(0, amount)),
+      },
+    })),
+  restorePlayerHealth: (amount = 100) =>
+    set((state) => ({
+      hudStats: {
+        ...state.hudStats,
+        hp: Math.max(0, Math.min(100, amount)),
+      },
+    })),
   applyCheckpoint: (checkpoint) =>
     set(() => ({
       phase: checkpoint.phase,
